@@ -23,5 +23,5 @@ A website designed for doctors and users. It facilitates user-doctor interaction
 
 ## 🔗 Live Website At
 
-[![LiveAt](https://img.shields.io/badge/Liveat-000?style=for-the-badge&logo=web&logoColor=white)](https://origin-fincancial.vercel.app/)
+[![LiveAt](https://img.shields.io/badge/originfincancial-000?style=for-the-badge&logo=web&logoColor=white)](https://origin-fincancial.vercel.app/)
 
