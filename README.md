@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Origin Financial (paid project)
 
-First, run the development server:
+A website designed for doctors and users. It facilitates user-doctor interaction, allowing users to engage with medical professionals. Additionally, the platform includes a blog feature, enabling doctors to contribute articles. The website showcases faculties and employs modern web development technologies, including Next.js for the frontend, Tailwind CSS for styling, Shadcn for specific functionality, TypeScript for enhanced code quality, and Framer Motion for animations.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tech Stack
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+**Next.js**: Used for building a robust and performant frontend.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Tailwind CSS**: Employed for efficient and responsive styling of the website.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Shadcn**: Utilized for specific functionalities, enhancing the user experience.
 
-## Deploy on Vercel
+**TypeScript**: Enhances code quality, providing static typing and improved developer tooling.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Framer Motion**: Integrated for creating dynamic and visually appealing animations
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## 🔗 Live Website At
+
+[![LiveAt](https://img.shields.io/badge/Liveat-000?style=for-the-badge&logo=web&logoColor=white)](https://origin-fincancial.vercel.app/)
+
