@@ -73,13 +73,22 @@ export default function HomeHeader({
               <Link href="#home-testimonials">Testimonials</Link>
             </li>
             <li
-              className={`relative after:absolute after:w-full after:h-[3px] after:bg-green-500 after:bottom-0 after:left-0 after:scale-x-0 hover:after:scale-x-100 ${
+              className={`Our-services-link relative after:absolute after:w-full after:h-[3px] after:bg-green-500 after:bottom-0 after:left-0 after:scale-x-0 hover:after:scale-x-100 ${
                 visibleSection == "home-our-services"
                   ? "after:scale-x-100 text-green-500"
                   : ""
               }`}
             >
               <Link href="#home-our-services">Our Services</Link>
+              <div className="absolute top-full left-0 pt-3">
+                <ul className="w-max bg-white shadow-md">
+                  <li className="flex flex-col p-3 gap-2">
+                    <Link href="/">Service 1</Link>
+                    <Link href="/">Service 2</Link>
+                    <Link href="/">Service 3</Link>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li
               className={`relative after:absolute after:w-full after:h-[3px] after:bg-green-500 after:bottom-0 after:left-0 after:scale-x-0 hover:after:scale-x-100 ${
@@ -176,9 +185,8 @@ export default function HomeHeader({
               </Link>
             </li>
             <li
-              className={
-                visibleSection == "home-our-services" ? "text-green-500" : ""
-              }
+              className={`Our-services-link ${visibleSection == "home-our-services" ? "text-green-500" : ""}
+              `}
             >
               <Link
                 onClick={() => setMobileNavOpne(false)}
@@ -186,6 +194,15 @@ export default function HomeHeader({
               >
                 Our Services
               </Link>
+              <div className="absolute top-full left-0 pt-3">
+                <ul className="w-max bg-white shadow-md">
+                  <li className="flex flex-col p-3 gap-2">
+                    <Link href="/">Service 1</Link>
+                    <Link href="/">Service 2</Link>
+                    <Link href="/">Service 3</Link>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li
               className={

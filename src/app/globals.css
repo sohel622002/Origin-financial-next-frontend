@@ -74,3 +74,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+.Our-services-link > div{
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 0.2s ease;
+}
+
+.Our-services-link:hover > div{
+  transform: scale(1, 1);
+}

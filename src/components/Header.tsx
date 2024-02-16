@@ -44,13 +44,22 @@ export default function Header() {
               <Link href="/">Home</Link>
             </li>
             <li
-              className={`relative after:absolute after:w-full after:h-[3px] after:bg-green-500 after:bottom-0 after:left-0 after:scale-x-0 hover:after:scale-x-100 after:duration-300 after:origin-left after:rounded ${
+              className={`Our-services-link relative after:absolute after:w-full after:h-[3px] after:bg-green-500 after:bottom-0 after:left-0 after:scale-x-0 hover:after:scale-x-100 after:duration-300 after:origin-left after:rounded ${
                 pathname == "/services"
                   ? "text-green-500 hover:text-green-600 after:scale-x-100"
                   : "hover:text-green-600"
               }`}
             >
               <Link href="/services">Services</Link>
+              <div className="absolute top-full left-0 pt-3 text-black">
+                <ul className="w-max bg-white shadow-md">
+                  <li className="flex flex-col p-3 gap-2">
+                    <Link href="/" className="hover:text-green-500">Service 1</Link>
+                    <Link href="/" className="hover:text-green-500">Service 2</Link>
+                    <Link href="/" className="hover:text-green-500">Service 3</Link>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li
               className={`relative after:absolute after:w-full after:h-[3px] after:bg-green-500 after:bottom-0 after:left-0 after:scale-x-0 hover:after:scale-x-100 after:duration-300 after:origin-left after:rounded ${
