@@ -1,11 +1,7 @@
 
 # Origin Financial (paid project)
 
-Updated Something
-
 A website designed for doctors and users. It facilitates user-doctor interaction, allowing users to engage with medical professionals. Additionally, the platform includes a blog feature, enabling doctors to contribute articles. The website showcases faculties and employs modern web development technologies, including Next.js for the frontend, Tailwind CSS for styling, Shadcn for specific functionality, TypeScript for enhanced code quality, and Framer Motion for animations.
-
-
 
 
 ## Tech Stack
@@ -21,6 +17,13 @@ A website designed for doctors and users. It facilitates user-doctor interaction
 
 **Framer Motion**: Integrated for creating dynamic and visually appealing animations
 
+## Screenshots
+
+Landing Page
+![Landing Page](https://github.com/sohel622002/my-project-screenshots/blob/master/Screenshot%202024-02-18%20133211.png)
+
+Blog Page
+![Blog Page](https://github.com/sohel622002/my-project-screenshots/blob/master/Screenshot%202024-02-18%20134059.png)
 
 
 ## 🔗 Live Website At
